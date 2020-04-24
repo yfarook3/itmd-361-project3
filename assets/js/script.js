@@ -1,11 +1,11 @@
 var map;
   function initMap() {
 	  myCoordinates={
-		  lat: 41.891263
+		  lat: 41.891263,
 		  lng:  -87.619089
 	  }
         map = new google.maps.Map(document.getElementById('map'), {
-          center: myCoordinates
+          center: myCoordinates,
           zoom: 13
 		});
 
