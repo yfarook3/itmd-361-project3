@@ -13,7 +13,7 @@ images[3]="assets/images/hulk.jpg";
 function changeImg(){
 		document.slide.src=images[i];
 		
-	if (i < images.length -1){
+	if (i < images.length){
 		i++;
 	}else{
 		i=0;
