@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Indie+Flower&display=swap');
+
+#nav{
+	font-family: 'Indie Flower', cursive;
+	padding: 10px;
+}
+
+#nav div{
+	display: inline-block;
+	background-color: #ffe4c4;
+	text-align: center;
+	border: solid;
+	border-width: 6px;
+	font-weight: 700;
+	min-width: 300px;
+	
+}
+#nav div a{
+		color: #00FF7F;
+		font-size: 15px;
+		padding: 13px 15px;
+}
+
+#nav div a:hover{
+	background-color: #e9967a;
+	color: red;
+}
+#nav div a.active{
+	background-color: #f08080;
+	color: #fffaf0;
+}
+
+body{
+	font-family: 'Comic Neue',cursive;
+	font-size: 22px;
+	background-color:dodgerblue;
+	text-align: center;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 0.75%;
+}
+h2{
+	color:maroon;
+	text-decoration-line: underline;
+}
+.minformation{
+	justify-content: center;
+	align-items: center;
+}
+.sum{
+	margin-left: 1em;
+}
+#heading{
+	color: orange;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.imagesvid{
+	border: solid;
+	border-width: 6px;
+	justify-content: space-evenly;
+}
+#marvel{
+	font-style: italic;
+	color: pink;
+	align-items: center;
+}
+.marvelpics{
+	background-color: red;
+	border: solid purple;
+	border-width: 4px;
+}
+.mcu{
+	display:flex;
+	justify-content: space-evenly;
+	color: mintcream;
+}
+	
+
+
