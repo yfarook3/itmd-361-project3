@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Map</title>
+    <title>Yaqub's Google Map</title>
+	<meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="reset" href="reset.css">
+	<link rel="reset" href="assets/css/reset.css">
 	<script src="script.js"></script>
+  </head>
+ 
+  <body>
+	<nav id="nav"> 
+		<div>
+			<a href="index.html">Resume</a>
+			<a href="hobbies.html">My Hobbies</a>
+			<a href="marvelmovies.html">My Favoite Marvel Movies</a>
+			<a href="maps.html">My Google Map</a>
+		</div>	
+	</nav>
+	
+	<div id="googlemap"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-3fpTqYQ1CWg36RH-O034UgxhR-_QzQ8&callback=initMap"
+    async defer></script>
+  </body>
+</html>
