@@ -25,7 +25,7 @@ var time = 2000;
 
 images[0]= "assets/images/capmap.jpg";
 images[1]="assets/images/ironman.jpg";
-images[2]= ""assets/images/tho.jpg";  
+images[2]= "assets/images/tho.jpg";  
 images[3]="assets/images/hulk.jpg";
 
 function changeImg(){
