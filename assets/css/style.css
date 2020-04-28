@@ -43,6 +43,12 @@ h2{
 	color:maroon;
 	text-decoration-line: underline;
 }
+ul{
+	text-align: left;
+}
+ol{
+	text-align: left;
+}
 .minformation{
 	justify-content: center;
 	align-items: center;
